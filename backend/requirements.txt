@@ -1,0 +1,25 @@
+# FastAPI for building the API
+fastapi==0.100.0
+
+# Uvicorn for running the ASGI server
+uvicorn[standard]==0.23.0
+
+# OpenAI API integration
+openai==0.28.0
+
+# Pydantic for data validation
+pydantic==1.10.0
+
+# For working with Excel files
+pandas==2.3.2
+openpyxl==3.1.2
+
+# For hashing and other utilities
+bcrypt==4.0.1
+
+# Python-dotenv for environment variable management
+python-dotenv==1.0.0
+
+supabase==2.22.0
+
+slowapi==0.1.9

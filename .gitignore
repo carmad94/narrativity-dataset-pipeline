@@ -1,0 +1,85 @@
+# Node.js / React
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tailwind CSS
+*.css.map
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.Python
+env/
+venv/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environments
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Supabase-related files
+.supabase/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac system files
+.DS_Store
