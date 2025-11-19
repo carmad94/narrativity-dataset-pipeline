@@ -1,5 +1,5 @@
 from fastapi import APIRouter,  Request
-from app.database import get_enriched_story
+from app.utilities.ai_enhancement import get_enriched_story
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 

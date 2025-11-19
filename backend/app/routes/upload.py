@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, HTTPException, Request
 from slowapi import Limiter
 from slowapi.util import get_remote_address
-from app.database import insert_file_metadata
+from app.utilities.pipeline import insert_file_metadata
 
 router = APIRouter()
 limiter = Limiter(key_func=get_remote_address)

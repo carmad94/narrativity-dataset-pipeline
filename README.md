@@ -57,7 +57,6 @@ This project implements an end-to-end data pipeline for ingesting, enriching, an
 
 - `backend/`: FastAPI code for data ingestion and processing.
 - `frontend/`: React code for the dashboard.
-- `sql/`: SQL migration files.
 - `docker-compose.yml`: Orchestrates services.
 
 ## Testing
