@@ -6,14 +6,13 @@ A small React dashboard to upload datasets and view AI-enriched ("Gold") records
 Features:
 - Upload dataset (file upload to backend `/upload` endpoint)
 - List uploaded (bronze) records (GET `/bronze`)
-- View AI-enriched data for an ID (GET `/gold/:id`, fallback to `/generate-story/:id`)
+- View AI-enriched data for an ID (GET `/generate-story/:id`)
 
 Assumptions:
 - Your backend exposes:
   - POST /upload (multipart/form-data) — accepts a file and returns info about saved bronze records
   - GET /bronze — returns a list of uploaded raw records (each with `id` or `hash`)
-  - GET /gold/:id — returns enriched gold data for a given id
-  - fallback: GET /generate-story/:id returns a narrative for the id
+  - GET /generate-story/:id — returns enriched gold data for a given id
 
 If your endpoints are different, set REACT_APP_API_URL in `.env` and update src/api.js accordingly.
 

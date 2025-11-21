@@ -2,7 +2,7 @@ import logging
 import os
 import json
 from dotenv import load_dotenv
-from openai import OpenAI
+import openai
 from app.constants import *
 from app.database import *
 
