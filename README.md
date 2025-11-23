@@ -22,6 +22,7 @@ This project implements an end-to-end data pipeline for ingesting, enriching, an
 
 - Docker and Docker Compose installed
 - OpenAI API key
+- Supabase account and API KEY
 
 ## Setup
 

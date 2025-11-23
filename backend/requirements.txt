@@ -5,7 +5,7 @@ fastapi>=0.100.0
 uvicorn[standard]==0.23.0
 
 # OpenAI API integration
-openai==0.28.0
+openai==2.8.1
 
 # Pydantic for data validation
 pydantic>=2.5.0
