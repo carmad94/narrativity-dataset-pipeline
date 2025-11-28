@@ -4,7 +4,7 @@ import json
 from dotenv import load_dotenv
 from openai import OpenAI
 from app.constants import *
-from app.database import *
+from app.utilities.database import *
 
 load_dotenv()
 

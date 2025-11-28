@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request, Query
-from app.database import get_records, get_table_count
+from app.utilities.database import get_records, get_table_count
 from app.constants import silver_table_name
 from slowapi import Limiter
 from slowapi.util import get_remote_address

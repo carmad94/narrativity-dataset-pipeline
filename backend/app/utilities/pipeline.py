@@ -2,7 +2,7 @@ import pandas as pd
 from io import BytesIO
 from datetime import datetime
 from app.constants import *
-from app.database import *
+from .database import *
 import logging
 
 logging.basicConfig(level=logging.INFO)
